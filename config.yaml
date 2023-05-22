@@ -1,0 +1,20 @@
+epochs: 30
+batch_size: 4
+image_size: 256
+run_name: run1
+pretrained_gen: true
+debug: false
+
+optim:
+  lr: 2.0e-4
+  beta1: 0.5
+  beta2: 0.999
+  lmbd: 100
+
+sch:
+  factor: 0.1
+  patience: 5
+
+paths:
+  root: ./data/images/
+  ids: ./data/
